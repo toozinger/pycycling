@@ -3,6 +3,9 @@ An example script which lists all available bluetooth devices. Use this to obtai
 scripts
 """
 
+import nest_asyncio
+nest_asyncio.apply()
+
 import asyncio
 from bleak import discover
 
